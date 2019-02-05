@@ -178,6 +178,7 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
+  largest_shoe = 0
   home_shoes = []
   away_shoes = []
   game_hash[:home][:players].map do |home_name, home_stats|
